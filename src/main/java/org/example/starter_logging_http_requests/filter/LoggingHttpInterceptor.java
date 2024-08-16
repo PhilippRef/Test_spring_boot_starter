@@ -7,7 +7,6 @@ import org.example.starter_logging_http_requests.exception.LoggingStartupHttpExc
 import org.example.starter_logging_http_requests.model.LogStructureRequest;
 import org.example.starter_logging_http_requests.model.LogStructureResponse;
 import org.springframework.web.servlet.HandlerInterceptor;
-import org.springframework.web.servlet.ModelAndView;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -34,7 +33,7 @@ public class LoggingHttpInterceptor implements HandlerInterceptor {
                              Object handler) throws Exception {
         long startTime = System.currentTimeMillis();
         request.setAttribute("startTime", startTime);
-        log.info("Начало выполнения метода preHandle");
+//        log.info("Начало выполнения метода preHandle");
 
         try {
             String requestMethodType = request.getMethod();
@@ -64,15 +63,15 @@ public class LoggingHttpInterceptor implements HandlerInterceptor {
      * @throws Exception
      */
 
-    @Override
-    public void postHandle(HttpServletRequest request, HttpServletResponse response,
-                           Object handler, ModelAndView modelAndView) throws Exception {
-        log.info("Начало выполнения метода postHandle");
-        long startTime = (Long) request.getAttribute("startTime");
-
-
-        log.info("Время выполнения: {} мс", System.currentTimeMillis() - startTime);
-    }
+//    @Override
+//    public void postHandle(HttpServletRequest request, HttpServletResponse response,
+//                           Object handler, ModelAndView modelAndView) throws Exception {
+//        log.info("Начало выполнения метода postHandle");
+//        long startTime = (Long) request.getAttribute("startTime");
+//
+//
+//        log.info("Время выполнения: {} мс", System.currentTimeMillis() - startTime);
+//    }
 
     /**
      * Метод выполняется после завершения механизма запроса и ответа
@@ -92,7 +91,7 @@ public class LoggingHttpInterceptor implements HandlerInterceptor {
                     ex.getMessage() + ", URL: " + request.getRequestURI());
         }
         try {
-            log.info("Начало выполнения метода afterCompletion");
+//            log.info("Начало выполнения метода afterCompletion");
             long startTime = (Long) request.getAttribute("startTime");
 
             int responseCode = response.getStatus();

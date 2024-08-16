@@ -11,7 +11,7 @@ public class LoggingHttpEnvironmentPostProcessor implements EnvironmentPostProce
     @Override
     public void postProcessEnvironment(ConfigurableEnvironment environment,
                                        SpringApplication application) {
-        log.info("Вызов LoggingHttpEnvironmentPostProcessor");
+//        log.info("Вызов LoggingHttpEnvironmentPostProcessor");
         String enabledPropertyValue = environment.getProperty("logging.http.enabled");
         boolean isBoolValue = Boolean.TRUE.toString().equalsIgnoreCase(enabledPropertyValue) ||
                 Boolean.FALSE.toString().equalsIgnoreCase(enabledPropertyValue);
