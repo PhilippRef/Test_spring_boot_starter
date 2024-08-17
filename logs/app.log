@@ -1088,3 +1088,91 @@ statusCode = 404
 processingTime = 67 ms
 responseHeader = {Keep-Alive=timeout=60, Connection=keep-alive, Content-Length=31, Date=Sat, 17 Aug 2024 10:08:43 GMT, Content-Type=text/plain;charset=UTF-8}
 }
+2024-08-17 13:54:42,491 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 9088 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
+2024-08-17 13:54:42,504 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-17 13:54:42,506 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-08-17 13:54:45,880 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 4.384 seconds (process running for 7.059)
+2024-08-17 13:58:09,203 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureRequest {
+requestMethodType = GET
+url = /api/order/
+processingTime = 2 ms
+requestHeader = {postman-token=d7d27750-a92b-4632-9407-ca2cd799f3c1, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 13:58:09,266 INFO o.e.s.a.SuccessLoggingAspect [http-nio-8080-exec-3] Метод getAllOrders успешно выполнился с аргументами: []
+2024-08-17 13:58:09,408 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureResponse {
+statusCode = 200
+processingTime = 206 ms
+responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 10:58:09 GMT, Content-Type=application/json}
+}
+2024-08-17 14:22:35,194 ERROR o.e.s.e.LoggingStartupHttpException [main] Ошибка при выполнении метода preHandle: Cannot invoke "java.util.Enumeration.asIterator()" because the return value of "jakarta.servlet.http.HttpServletRequest.getHeaderNames()" is null
+2024-08-17 14:24:17,436 ERROR o.e.s.e.LoggingStartupHttpException [main] Ошибка при выполнении метода preHandle: Cannot invoke "java.util.Enumeration.asIterator()" because the return value of "jakarta.servlet.http.HttpServletRequest.getHeaderNames()" is null
+2024-08-17 14:26:56,205 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 7480 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
+2024-08-17 14:26:56,220 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-17 14:26:56,224 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-08-17 14:27:00,204 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 4.836 seconds (process running for 6.774)
+2024-08-17 14:27:12,972 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureRequest {
+requestMethodType = GET
+url = /api/order/
+processingTime = 2 ms
+requestHeader = {postman-token=17e0b966-47b0-40c0-8f2c-808625c7934b, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 14:27:13,009 INFO o.e.s.a.SuccessLoggingAspect [http-nio-8080-exec-2] Метод getAllOrders успешно выполнился с аргументами: []
+2024-08-17 14:27:13,111 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureResponse {
+statusCode = 200
+processingTime = 141 ms
+responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 11:27:13 GMT, Content-Type=application/json}
+}
+2024-08-17 14:38:53,675 INFO o.e.s.f.LoggingHttpInterceptor [main] LogStructureRequest {
+requestMethodType = GET
+url = api/test
+processingTime = 8 ms
+requestHeader = {content-type=application/json, connection=keep-alive, user-agent=Chrome}
+}
+2024-08-17 14:39:58,051 INFO o.e.s.f.LoggingHttpInterceptor [main] LogStructureRequest {
+requestMethodType = GET
+url = api/test
+processingTime = 3 ms
+requestHeader = {content-type=application/json, connection=keep-alive, user-agent=Chrome}
+}
+2024-08-17 14:44:24,384 ERROR o.e.s.e.LoggingStartupHttpException [main] Test preHandleException
+2024-08-17 14:44:24,401 ERROR o.e.s.e.LoggingStartupHttpException [main] Ошибка при выполнении метода preHandle: Test preHandleException
+2024-08-17 14:45:36,974 ERROR o.e.s.e.LoggingStartupHttpException [main] Ошибка при выполнении метода preHandle: Test preHandleException
+2024-08-17 14:45:36,995 ERROR o.e.s.e.LoggingStartupHttpException [main] Ошибка при выполнении метода preHandle: Ошибка при выполнении метода preHandle: Test preHandleException
+2024-08-17 14:46:19,132 ERROR o.e.s.e.LoggingStartupHttpException [main] Test preHandleException
+2024-08-17 14:46:19,150 ERROR o.e.s.e.LoggingStartupHttpException [main] Ошибка при выполнении метода preHandle: Test preHandleException
+2024-08-17 14:47:11,533 ERROR o.e.s.e.LoggingStartupHttpException [main] Test preHandleException
+2024-08-17 14:47:11,553 ERROR o.e.s.e.LoggingStartupHttpException [main] Ошибка при выполнении метода preHandle: Test preHandleException
+2024-08-17 14:47:41,366 ERROR o.e.s.e.LoggingStartupHttpException [main] Test preHandleException
+2024-08-17 14:47:41,389 ERROR o.e.s.e.LoggingStartupHttpException [main] Ошибка при выполнении метода preHandle: Test preHandleException
+2024-08-17 14:51:02,524 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 3344 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
+2024-08-17 14:51:02,533 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-17 14:51:02,534 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-08-17 14:51:04,093 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 1.952 seconds (process running for 3.006)
+2024-08-17 14:51:09,187 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureRequest {
+requestMethodType = GET
+url = /api/order/
+processingTime = 1 ms
+requestHeader = {postman-token=b46dca5a-cee1-4877-806e-ed81a267780f, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 14:51:09,212 INFO o.e.s.a.SuccessLoggingAspect [http-nio-8080-exec-1] Метод getAllOrders успешно выполнился с аргументами: []
+2024-08-17 14:51:09,267 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureResponse {
+statusCode = 200
+processingTime = 81 ms
+responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 11:51:09 GMT, Content-Type=application/json}
+}
+2024-08-17 14:58:39,253 ERROR o.e.s.e.LoggingStartupHttpException [main] Ошибка при выполнении метода afterCompletion: Cannot invoke "java.lang.Long.longValue()" because the return value of "jakarta.servlet.http.HttpServletRequest.getAttribute(String)" is null
+2024-08-17 15:02:08,486 INFO o.e.s.f.LoggingHttpInterceptor [main] LogStructureResponse {
+statusCode = 200
+processingTime = 108 ms
+responseHeader = {transfer-encoding=chunked, content-type=application/json, connection=keep-alive}
+}
+2024-08-17 15:02:37,172 INFO o.e.s.f.LoggingHttpInterceptor [main] LogStructureResponse {
+statusCode = 200
+processingTime = 108 ms
+responseHeader = {transfer-encoding=chunked, content-type=application/json, connection=keep-alive}
+}
+2024-08-17 15:08:10,235 INFO o.e.s.f.LoggingHttpInterceptor [main] LogStructureResponse {
+statusCode = 200
+processingTime = 10 ms
+responseHeader = {transfer-encoding=chunked, content-type=application/json, connection=keep-alive}
+}

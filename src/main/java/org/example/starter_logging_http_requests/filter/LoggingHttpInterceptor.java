@@ -17,7 +17,7 @@ import java.util.Map;
  * Класс для перехвата запросов и ответов от клиента
  */
 
-@Component
+//@Component
 public class LoggingHttpInterceptor implements HandlerInterceptor {
 
     private static final Logger log = LogManager.getLogger(LoggingHttpInterceptor.class);
@@ -112,7 +112,6 @@ public class LoggingHttpInterceptor implements HandlerInterceptor {
             throw new LoggingStartupHttpException("Ошибка при выполнении метода afterCompletion: "
                     + e.getMessage());
         }
-
     }
 
     /**
