@@ -2,10 +2,12 @@ package org.example.starter_logging_http_requests.filter;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import lombok.extern.slf4j.Slf4j;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.example.starter_logging_http_requests.exception.LoggingStartupHttpException;
 import org.example.starter_logging_http_requests.model.LogStructureRequest;
 import org.example.starter_logging_http_requests.model.LogStructureResponse;
+import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 
 import java.util.HashMap;
@@ -15,8 +17,10 @@ import java.util.Map;
  * Класс для перехвата запросов и ответов от клиента
  */
 
-@Slf4j
+@Component
 public class LoggingHttpInterceptor implements HandlerInterceptor {
+
+    private static final Logger log = LogManager.getLogger(LoggingHttpInterceptor.class);
 
     /**
      * Этот метод перехватывает любой запрос до того, как он попадёт в целевой метод контроллера
@@ -103,6 +107,7 @@ public class LoggingHttpInterceptor implements HandlerInterceptor {
                     getLogStructureResponse(responseCode, responseHeader, processingTime);
 
             log.info(logStructureResponse.toString());
+
         } catch (Exception e) {
             throw new LoggingStartupHttpException("Ошибка при выполнении метода afterCompletion: "
                     + e.getMessage());

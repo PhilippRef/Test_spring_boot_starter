@@ -9,7 +9,14 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 
+/**
+ * Класс для конфигурации starter
+ */
+
 @AutoConfiguration
+/**
+ * Добавляем свойства из класса LoggingHttpProperties
+ */
 @EnableConfigurationProperties(LoggingHttpProperties.class)
 @ConditionalOnProperty(prefix = "logging.http", value = "enabled", havingValue = "true")
 public class LoggingHttpAutoConfiguration {
