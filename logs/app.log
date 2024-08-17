@@ -1,704 +1,72 @@
-2024-08-17 10:11:34,032 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 11752 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
-2024-08-17 10:11:34,047 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
-2024-08-17 10:11:34,050 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-08-17 10:11:36,950 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 3.739 seconds (process running for 5.549)
-2024-08-17 10:12:55,014 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureRequest(requestMethodType=GET, url=/api/order/, requestHeader={postman-token=8364bdec-ae28-480c-a29b-89aadfb2d73e, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}, processingTime=2)
-2024-08-17 10:12:55,161 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureResponse(statusCode=200, responseHeader={Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 07:12:55 GMT, Content-Type=application/json}, processingTime=147)
-2024-08-17 10:17:07,935 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 8308 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
-2024-08-17 10:17:07,950 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
-2024-08-17 10:17:07,952 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-08-17 10:17:11,107 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 4.209 seconds (process running for 6.008)
-2024-08-17 10:17:11,760 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 7776 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
-2024-08-17 10:17:11,778 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
-2024-08-17 10:17:11,782 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-08-17 10:17:16,261 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureRequest{requestMethodType='GET', url='/api/order/', processingTime=3',requestHeader = {postman-token=8af6ad2c-3d11-4cac-b455-1dee0057e348, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
-2024-08-17 10:17:16,560 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureResponse(statusCode=200, responseHeader={Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 07:17:16 GMT, Content-Type=application/json}, processingTime=306)
-2024-08-17 10:17:38,365 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureRequest{requestMethodType='GET', url='/api/order/', processingTime=0',requestHeader = {postman-token=86744f35-dc0d-4e5d-9ad0-4005862eb22d, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
-2024-08-17 10:17:38,375 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureResponse(statusCode=200, responseHeader={Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 07:17:38 GMT, Content-Type=application/json}, processingTime=10)
-2024-08-17 10:17:54,193 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 5132 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
-2024-08-17 10:17:54,208 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
-2024-08-17 10:17:54,210 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-08-17 10:17:56,918 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 3.517 seconds (process running for 5.361)
-2024-08-17 10:18:02,991 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureRequest{requestMethodType='GET', url='/api/order/', processingTime=3', requestHeader = {postman-token=86629e65-a8f5-4b45-9dea-208df4a947b9, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
-2024-08-17 10:18:03,355 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureResponse(statusCode=200, responseHeader={Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 07:18:03 GMT, Content-Type=application/json}, processingTime=370)
-2024-08-17 10:21:25,007 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 10264 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
-2024-08-17 10:21:25,024 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
-2024-08-17 10:21:25,028 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-08-17 10:21:27,955 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 3.645 seconds (process running for 5.453)
-2024-08-17 10:21:34,492 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureRequest{
-requestMethodType=GET
-, url='/api/order/
-, processingTime=2
-, requestHeader = {postman-token=aef285bb-6c2e-4207-b368-7a26ad0323dd, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
-2024-08-17 10:21:34,672 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureResponse(statusCode=200, responseHeader={Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 07:21:34 GMT, Content-Type=application/json}, processingTime=184)
-2024-08-17 10:22:56,326 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 2908 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
-2024-08-17 10:22:56,341 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
-2024-08-17 10:22:56,343 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-08-17 10:22:59,263 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 3.538 seconds (process running for 5.387)
-2024-08-17 10:23:07,209 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureRequest {
+2024-08-17 12:05:06,924 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 9848 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
+2024-08-17 12:05:06,946 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-17 12:05:06,950 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-08-17 12:05:10,726 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 4.696 seconds (process running for 6.579)
+2024-08-17 12:05:18,478 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureRequest {
 requestMethodType = GET
-url = /api/order/
-processingTime = 2
-requestHeader = {postman-token=b38fd400-3d5b-4ff8-9f32-d7133747e62d, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+url = /api/order/1
+processingTime = 3 ms
+requestHeader = {postman-token=16e98ba4-2be7-4631-b281-27d40a9e59c3, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
 }
-2024-08-17 10:23:07,382 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureResponse(statusCode=200, responseHeader={Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 07:23:07 GMT, Content-Type=application/json}, processingTime=179)
-2024-08-17 10:26:38,580 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 13888 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
-2024-08-17 10:26:38,595 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
-2024-08-17 10:26:38,598 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-08-17 10:26:41,466 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 3.478 seconds (process running for 5.208)
-2024-08-17 10:26:45,407 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] Начало выполнения метода preHandle
-2024-08-17 10:26:45,415 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureRequest {
-requestMethodType = GET
-url = /api/order/
-processingTime = 2ms
-requestHeader = {postman-token=d8ea452d-588c-4e94-b959-32623b9ee20f, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
-}
-2024-08-17 10:26:45,570 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] Начало выполнения метода afterCompletion
-2024-08-17 10:26:45,578 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureResponse {
+2024-08-17 12:05:18,682 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureResponse {
 statusCode = 200
-processingTime = 165ms
-responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 07:26:45 GMT, Content-Type=application/json}
+processingTime = 213 ms
+responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 09:05:18 GMT, Content-Type=application/json}
 }
-2024-08-17 10:31:03,570 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 10608 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
-2024-08-17 10:31:03,582 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
-2024-08-17 10:31:03,584 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-08-17 10:31:06,686 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 3.762 seconds (process running for 5.515)
-2024-08-17 10:32:05,761 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureRequest {
+2024-08-17 12:12:43,791 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 7920 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
+2024-08-17 12:12:43,806 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-17 12:12:43,808 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-08-17 12:12:46,730 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 3.734 seconds (process running for 5.62)
+2024-08-17 12:12:51,049 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureRequest {
+requestMethodType = GET
+url = /api/order/1
+processingTime = 2 ms
+requestHeader = {postman-token=d0af1598-c51a-4f6d-a10b-6997e661e9ca, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:12:51,144 INFO o.e.s.a.SuccessLoggingAspect [http-nio-8080-exec-1] Метод getOrderById успешно выполнился с аргументами: [1]
+2024-08-17 12:12:51,324 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureResponse {
+statusCode = 200
+processingTime = 273 ms
+responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 09:12:51 GMT, Content-Type=application/json}
+}
+2024-08-17 12:15:00,457 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 7736 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
+2024-08-17 12:15:00,472 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-17 12:15:00,475 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-08-17 12:15:04,530 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 4.674 seconds (process running for 6.301)
+2024-08-17 12:15:11,095 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureRequest {
+requestMethodType = GET
+url = /api/order/5
+processingTime = 3 ms
+requestHeader = {postman-token=7406121d-ef8a-4dea-ad20-8bd74f07ca2f, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:15:11,179 INFO o.e.s.a.SuccessLoggingAspect [http-nio-8080-exec-2] Метод getOrderById успешно выполнился с аргументами: [5]
+2024-08-17 12:15:11,223 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureResponse {
+statusCode = 404
+processingTime = 140 ms
+responseHeader = {Keep-Alive=timeout=60, Connection=keep-alive, Content-Length=30, Date=Sat, 17 Aug 2024 09:15:11 GMT, Content-Type=text/plain;charset=UTF-8}
+}
+2024-08-17 12:17:02,497 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-5] LogStructureRequest {
 requestMethodType = GET
 url = /api/order/
-processingTime = 2 ms
-requestHeader = {postman-token=531414a1-e6ee-4472-acb0-c017103f3a39, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+processingTime = 1 ms
+requestHeader = {postman-token=0da718cb-9149-4ea4-ae8b-27d969259cfd, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
 }
-2024-08-17 10:32:05,961 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureResponse {
+2024-08-17 12:17:02,501 INFO o.e.s.a.SuccessLoggingAspect [http-nio-8080-exec-5] Метод getAllOrders успешно выполнился с аргументами: []
+2024-08-17 12:17:02,748 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-5] LogStructureResponse {
 statusCode = 200
-processingTime = 200 ms
-responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 07:32:05 GMT, Content-Type=application/json}
+processingTime = 252 ms
+responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 09:17:02 GMT, Content-Type=application/json}
 }
-2024-08-17 10:32:37,573 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 2496 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
-2024-08-17 10:32:37,588 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
-2024-08-17 10:32:37,591 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-08-17 10:32:40,289 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 3.295 seconds (process running for 4.932)
-2024-08-17 10:32:45,768 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureRequest {
+2024-08-17 12:18:26,594 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-8] LogStructureRequest {
 requestMethodType = GET
-url = /api/order/
-processingTime = 2 ms
-requestHeader = {postman-token=e1f168ac-3754-4bf7-8ca4-83f7fe90075b, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
-}
-2024-08-17 10:32:45,940 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureResponse {
-statusCode = 200
-processingTime = 176 ms
-responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 07:32:45 GMT, Content-Type=application/json}
-}
-2024-08-17 10:33:08,364 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureRequest {
-requestMethodType = GET
-url = /api/order/10
-processingTime = 2 ms
-requestHeader = {postman-token=0f494ea8-9cec-4be2-8fad-92c87e653b7c, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
-}
-2024-08-17 10:33:08,434 ERROR o.e.s.a.ExceptionHandlerAspect [http-nio-8080-exec-3] Произошла ошибка при вызове метода: public org.springframework.http.ResponseEntity org.example.starter_logging_http_requests.orderApplication.controller.OrderController.getOrderById(int)
-2024-08-17 10:33:08,437 ERROR o.e.s.a.ExceptionHandlerAspect [http-nio-8080-exec-3] Ошибка: Заказ 10 не найден
-2024-08-17 10:33:08,450 ERROR o.s.w.s.HandlerExecutionChain [http-nio-8080-exec-3] HandlerInterceptor.afterCompletion threw exception
-org.example.starter_logging_http_requests.exception.LoggingStartupHttpException: Ошибка при выполнении метода afterCompletion: Заказ 10 не найден, URL: /api/order/10
-	at org.example.starter_logging_http_requests.filter.LoggingHttpInterceptor.afterCompletion(LoggingHttpInterceptor.java:94) ~[classes/:?]
-	at org.springframework.web.servlet.HandlerExecutionChain.triggerAfterCompletion(HandlerExecutionChain.java:176) ~[spring-webmvc-6.1.11.jar:6.1.11]
-	at org.springframework.web.servlet.DispatcherServlet.triggerAfterCompletion(DispatcherServlet.java:1485) ~[spring-webmvc-6.1.11.jar:6.1.11]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1109) ~[spring-webmvc-6.1.11.jar:6.1.11]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.11.jar:6.1.11]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.11.jar:6.1.11]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.11.jar:6.1.11]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.11.jar:6.1.11]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.11.jar:6.1.11]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.11.jar:6.1.11]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.11.jar:6.1.11]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
-2024-08-17 10:33:08,501 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-3] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.example.starter_logging_http_requests.orderApplication.exception.OrderApplicationException: Заказ 10 не найден] with root cause
-org.example.starter_logging_http_requests.orderApplication.exception.OrderApplicationException: Заказ 10 не найден
-	at org.example.starter_logging_http_requests.orderApplication.service.OrderService.lambda$getOrderByOrderId$1(OrderService.java:45) ~[classes/:?]
-	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at org.example.starter_logging_http_requests.orderApplication.service.OrderService.getOrderByOrderId(OrderService.java:44) ~[classes/:?]
-	at org.example.starter_logging_http_requests.orderApplication.controller.OrderController.getOrderById(OrderController.java:20) ~[classes/:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354) ~[spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720) ~[spring-aop-6.1.11.jar:6.1.11]
-	at org.example.starter_logging_http_requests.orderApplication.controller.OrderController$$SpringCGLIB$$0.getOrderById(<generated>) ~[classes/:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.11.jar:6.1.11]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.11.jar:6.1.11]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.11.jar:6.1.11]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.11.jar:6.1.11]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.11.jar:6.1.11]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.11.jar:6.1.11]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.11.jar:6.1.11]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.11.jar:6.1.11]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.11.jar:6.1.11]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.11.jar:6.1.11]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.11.jar:6.1.11]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.11.jar:6.1.11]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.11.jar:6.1.11]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.11.jar:6.1.11]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
-2024-08-17 10:33:08,537 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureRequest {
-requestMethodType = GET
-url = /error
+url = /api/order/user/user1
 processingTime = 0 ms
-requestHeader = {postman-token=0f494ea8-9cec-4be2-8fad-92c87e653b7c, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+requestHeader = {postman-token=c5385ae4-c854-4150-a9af-64e992a5ac17, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
 }
-2024-08-17 10:33:08,599 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureResponse {
-statusCode = 500
-processingTime = 62 ms
-responseHeader = {Transfer-Encoding=chunked, Connection=close, Date=Sat, 17 Aug 2024 07:33:08 GMT, Content-Type=application/json}
-}
-2024-08-17 10:39:38,283 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 13948 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
-2024-08-17 10:39:38,301 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
-2024-08-17 10:39:38,304 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-08-17 10:39:41,562 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 4.007 seconds (process running for 5.652)
-2024-08-17 10:39:50,564 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureRequest {
-requestMethodType = GET
-url = /api/order/
-processingTime = 2 ms
-requestHeader = {postman-token=b5f27a5d-c158-49a2-97f5-3fd400e9bc8f, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
-}
-2024-08-17 10:39:50,774 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureResponse {
-statusCode = 200
-processingTime = 212 ms
-responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 07:39:50 GMT, Content-Type=application/json}
-}
-2024-08-17 10:40:35,844 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 12156 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
-2024-08-17 10:40:35,861 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
-2024-08-17 10:40:35,865 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-08-17 10:40:39,556 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 4.502 seconds (process running for 6.13)
-2024-08-17 10:41:35,687 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 9128 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
-2024-08-17 10:41:35,695 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
-2024-08-17 10:41:35,698 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-08-17 10:41:37,754 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 2.434 seconds (process running for 4.268)
-2024-08-17 10:41:57,961 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureRequest {
-requestMethodType = GET
-url = /api/order/
-processingTime = 1 ms
-requestHeader = {postman-token=c8ff6c45-a7b1-492a-9d52-8e74e0a47f87, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
-}
-2024-08-17 10:41:58,092 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureResponse {
-statusCode = 200
-processingTime = 129 ms
-responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 07:41:58 GMT, Content-Type=application/json}
-}
-2024-08-17 10:43:27,148 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 6032 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
-2024-08-17 10:43:27,162 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
-2024-08-17 10:43:27,165 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-08-17 10:43:30,099 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 3.821 seconds (process running for 5.566)
-2024-08-17 10:43:34,691 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureRequest {
-requestMethodType = GET
-url = /api/order/
-processingTime = 2 ms
-requestHeader = {postman-token=f42bc598-0955-4115-bc20-f4437edd9d21, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
-}
-2024-08-17 10:43:34,870 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureResponse {
-statusCode = 200
-processingTime = 184 ms
-responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 07:43:34 GMT, Content-Type=application/json}
-}
-2024-08-17 11:00:58,503 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 6044 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
-2024-08-17 11:00:58,517 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
-2024-08-17 11:00:58,519 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-08-17 11:01:00,339 INFO o.e.s.a.LoggingAspect [main] Выполнение метода tomcatServletWebServerFactory с аргументами [org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider@2d5ef498, org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider@95eb320, org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider@2f521c4]
-2024-08-17 11:01:00,391 INFO o.e.s.a.LoggingAspect [main] Метод tomcatServletWebServerFactory с аргументами [org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider@2d5ef498, org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider@95eb320, org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider@2f521c4] выполнился за 56 мс
-2024-08-17 11:01:00,421 INFO o.e.s.a.LoggingAspect [main] Выполнение метода websocketServletWebServerCustomizer с аргументами []
-2024-08-17 11:01:00,423 INFO o.e.s.a.LoggingAspect [main] Метод websocketServletWebServerCustomizer с аргументами [] выполнился за 2 мс
-2024-08-17 11:01:00,552 INFO o.e.s.a.LoggingAspect [main] Выполнение метода servletWebServerFactoryCustomizer с аргументами [org.springframework.boot.autoconfigure.web.ServerProperties@516462cc, org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider@3456558, org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider@2dfb885e, org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider@6cbe7d4d]
-2024-08-17 11:01:00,561 INFO o.e.s.a.LoggingAspect [main] Выполнение метода toString с аргументами []
-2024-08-17 11:01:00,562 INFO o.e.s.a.LoggingAspect [main] Метод toString с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:00,589 INFO o.e.s.a.LoggingAspect [main] Выполнение метода sslBundleRegistry с аргументами [org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider@7c3e4b1a]
-2024-08-17 11:01:00,594 INFO o.e.s.a.LoggingAspect [main] Выполнение метода fileWatcher с аргументами []
-2024-08-17 11:01:00,594 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getBundle с аргументами []
-2024-08-17 11:01:00,595 INFO o.e.s.a.LoggingAspect [main] Метод getBundle с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:00,596 INFO o.e.s.a.LoggingAspect [main] Метод fileWatcher с аргументами [] выполнился за 2 мс
-2024-08-17 11:01:00,609 INFO o.e.s.a.LoggingAspect [main] Выполнение метода sslPropertiesSslBundleRegistrar с аргументами [org.springframework.boot.autoconfigure.ssl.FileWatcher@6e4599c0]
-2024-08-17 11:01:00,611 INFO o.e.s.a.LoggingAspect [main] Выполнение метода toString с аргументами []
-2024-08-17 11:01:00,611 INFO o.e.s.a.LoggingAspect [main] Метод toString с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,613 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getBundle с аргументами []
-2024-08-17 11:01:00,613 INFO o.e.s.a.LoggingAspect [main] Метод getBundle с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,614 INFO o.e.s.a.LoggingAspect [main] Метод sslPropertiesSslBundleRegistrar с аргументами [org.springframework.boot.autoconfigure.ssl.FileWatcher@6e4599c0] выполнился за 5 мс
-2024-08-17 11:01:00,614 INFO o.e.s.a.LoggingAspect [main] Выполнение метода toString с аргументами []
-2024-08-17 11:01:00,615 INFO o.e.s.a.LoggingAspect [main] Метод toString с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:00,622 INFO o.e.s.a.LoggingAspect [main] Выполнение метода registerBundles с аргументами [org.springframework.boot.ssl.DefaultSslBundleRegistry@51c8f62c]
-2024-08-17 11:01:00,626 INFO o.e.s.a.LoggingAspect [main] Метод registerBundles с аргументами [org.springframework.boot.ssl.DefaultSslBundleRegistry@51c8f62c] выполнился за 4 мс
-2024-08-17 11:01:00,627 INFO o.e.s.a.LoggingAspect [main] Метод sslBundleRegistry с аргументами [org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider@7c3e4b1a] выполнился за 38 мс
-2024-08-17 11:01:00,634 INFO o.e.s.a.LoggingAspect [main] Метод servletWebServerFactoryCustomizer с аргументами [org.springframework.boot.autoconfigure.web.ServerProperties@516462cc, org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider@3456558, org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider@2dfb885e, org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider@6cbe7d4d] выполнился за 82 мс
-2024-08-17 11:01:00,635 INFO o.e.s.a.LoggingAspect [main] Выполнение метода toString с аргументами []
-2024-08-17 11:01:00,636 INFO o.e.s.a.LoggingAspect [main] Метод toString с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:00,643 INFO o.e.s.a.LoggingAspect [main] Выполнение метода tomcatServletWebServerFactoryCustomizer с аргументами [org.springframework.boot.autoconfigure.web.ServerProperties@516462cc]
-2024-08-17 11:01:00,645 INFO o.e.s.a.LoggingAspect [main] Выполнение метода toString с аргументами []
-2024-08-17 11:01:00,645 INFO o.e.s.a.LoggingAspect [main] Метод toString с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,645 INFO o.e.s.a.LoggingAspect [main] Метод tomcatServletWebServerFactoryCustomizer с аргументами [org.springframework.boot.autoconfigure.web.ServerProperties@516462cc] выполнился за 2 мс
-2024-08-17 11:01:00,646 INFO o.e.s.a.LoggingAspect [main] Выполнение метода toString с аргументами []
-2024-08-17 11:01:00,646 INFO o.e.s.a.LoggingAspect [main] Метод toString с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,658 INFO o.e.s.a.LoggingAspect [main] Выполнение метода tomcatWebServerFactoryCustomizer с аргументами [ApplicationServletEnvironment {activeProfiles=[], defaultProfiles=[default], propertySources=[ConfigurationPropertySourcesPropertySource {name='configurationProperties'}, StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, PropertiesPropertySource {name='systemProperties'}, OriginAwareSystemEnvironmentPropertySource {name='systemEnvironment'}, RandomValuePropertySource {name='random'}, OriginTrackedMapPropertySource {name='Config resource 'class path resource [application.properties]' via location 'optional:classpath:/''}]}, org.springframework.boot.autoconfigure.web.ServerProperties@516462cc]
-2024-08-17 11:01:00,663 INFO o.e.s.a.LoggingAspect [main] Выполнение метода toString с аргументами []
-2024-08-17 11:01:00,663 INFO o.e.s.a.LoggingAspect [main] Метод toString с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,665 INFO o.e.s.a.LoggingAspect [main] Метод tomcatWebServerFactoryCustomizer с аргументами [ApplicationServletEnvironment {activeProfiles=[], defaultProfiles=[default], propertySources=[ConfigurationPropertySourcesPropertySource {name='configurationProperties'}, StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, PropertiesPropertySource {name='systemProperties'}, OriginAwareSystemEnvironmentPropertySource {name='systemEnvironment'}, RandomValuePropertySource {name='random'}, OriginTrackedMapPropertySource {name='Config resource 'class path resource [application.properties]' via location 'optional:classpath:/''}]}, org.springframework.boot.autoconfigure.web.ServerProperties@516462cc] выполнился за 7 мс
-2024-08-17 11:01:00,667 INFO o.e.s.a.LoggingAspect [main] Выполнение метода toString с аргументами []
-2024-08-17 11:01:00,667 INFO o.e.s.a.LoggingAspect [main] Метод toString с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,675 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getServlet с аргументами []
-2024-08-17 11:01:00,675 INFO o.e.s.a.LoggingAspect [main] Метод getServlet с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,682 INFO o.e.s.a.LoggingAspect [main] Выполнение метода localeCharsetMappingsCustomizer с аргументами []
-2024-08-17 11:01:00,683 INFO o.e.s.a.LoggingAspect [main] Метод localeCharsetMappingsCustomizer с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:00,691 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getOrder с аргументами []
-2024-08-17 11:01:00,693 INFO o.e.s.a.LoggingAspect [main] Метод getOrder с аргументами [] выполнился за 2 мс
-2024-08-17 11:01:00,693 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getOrder с аргументами []
-2024-08-17 11:01:00,694 INFO o.e.s.a.LoggingAspect [main] Метод getOrder с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:00,694 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getOrder с аргументами []
-2024-08-17 11:01:00,695 INFO o.e.s.a.LoggingAspect [main] Метод getOrder с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:00,695 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getOrder с аргументами []
-2024-08-17 11:01:00,695 INFO o.e.s.a.LoggingAspect [main] Метод getOrder с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,696 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getOrder с аргументами []
-2024-08-17 11:01:00,696 INFO o.e.s.a.LoggingAspect [main] Метод getOrder с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,696 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getOrder с аргументами []
-2024-08-17 11:01:00,697 INFO o.e.s.a.LoggingAspect [main] Метод getOrder с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:00,697 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getOrder с аргументами []
-2024-08-17 11:01:00,697 INFO o.e.s.a.LoggingAspect [main] Метод getOrder с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,698 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getOrder с аргументами []
-2024-08-17 11:01:00,698 INFO o.e.s.a.LoggingAspect [main] Метод getOrder с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,703 INFO o.e.s.a.LoggingAspect [main] Выполнение метода customize с аргументами [org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory@44a085e5]
-2024-08-17 11:01:00,704 INFO o.e.s.a.LoggingAspect [main] Метод customize с аргументами [org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory@44a085e5] выполнился за 1 мс
-2024-08-17 11:01:00,705 INFO o.e.s.a.LoggingAspect [main] Выполнение метода customize с аргументами [org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory@44a085e5]
-2024-08-17 11:01:00,712 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getPort с аргументами []
-2024-08-17 11:01:00,712 INFO o.e.s.a.LoggingAspect [main] Метод getPort с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,714 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getAddress с аргументами []
-2024-08-17 11:01:00,714 INFO o.e.s.a.LoggingAspect [main] Метод getAddress с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,715 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getServlet с аргументами []
-2024-08-17 11:01:00,715 INFO o.e.s.a.LoggingAspect [main] Метод getServlet с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,716 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getServlet с аргументами []
-2024-08-17 11:01:00,716 INFO o.e.s.a.LoggingAspect [main] Метод getServlet с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,718 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getServlet с аргументами []
-2024-08-17 11:01:00,719 INFO o.e.s.a.LoggingAspect [main] Метод getServlet с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:00,720 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getServlet с аргументами []
-2024-08-17 11:01:00,720 INFO o.e.s.a.LoggingAspect [main] Метод getServlet с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,721 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getSsl с аргументами []
-2024-08-17 11:01:00,721 INFO o.e.s.a.LoggingAspect [main] Метод getSsl с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,723 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getServlet с аргументами []
-2024-08-17 11:01:00,723 INFO o.e.s.a.LoggingAspect [main] Метод getServlet с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,724 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getCompression с аргументами []
-2024-08-17 11:01:00,724 INFO o.e.s.a.LoggingAspect [main] Метод getCompression с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,725 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getHttp2 с аргументами []
-2024-08-17 11:01:00,725 INFO o.e.s.a.LoggingAspect [main] Метод getHttp2 с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,726 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getServerHeader с аргументами []
-2024-08-17 11:01:00,727 INFO o.e.s.a.LoggingAspect [main] Метод getServerHeader с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:00,728 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getServlet с аргументами []
-2024-08-17 11:01:00,728 INFO o.e.s.a.LoggingAspect [main] Метод getServlet с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,728 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getShutdown с аргументами []
-2024-08-17 11:01:00,729 INFO o.e.s.a.LoggingAspect [main] Метод getShutdown с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:00,733 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getMimeMappings с аргументами []
-2024-08-17 11:01:00,734 INFO o.e.s.a.LoggingAspect [main] Метод getMimeMappings с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:00,735 INFO o.e.s.a.LoggingAspect [main] Метод customize с аргументами [org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory@44a085e5] выполнился за 30 мс
-2024-08-17 11:01:00,735 INFO o.e.s.a.LoggingAspect [main] Выполнение метода customize с аргументами [org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory@44a085e5]
-2024-08-17 11:01:00,736 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getTomcat с аргументами []
-2024-08-17 11:01:00,737 INFO o.e.s.a.LoggingAspect [main] Метод getTomcat с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:00,738 INFO o.e.s.a.LoggingAspect [main] Метод customize с аргументами [org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory@44a085e5] выполнился за 3 мс
-2024-08-17 11:01:00,739 INFO o.e.s.a.LoggingAspect [main] Выполнение метода customize с аргументами [org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory@44a085e5]
-2024-08-17 11:01:00,739 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getTomcat с аргументами []
-2024-08-17 11:01:00,740 INFO o.e.s.a.LoggingAspect [main] Метод getTomcat с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:00,747 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getTomcat с аргументами []
-2024-08-17 11:01:00,747 INFO o.e.s.a.LoggingAspect [main] Метод getTomcat с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,747 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getForwardHeadersStrategy с аргументами []
-2024-08-17 11:01:00,748 INFO o.e.s.a.LoggingAspect [main] Метод getForwardHeadersStrategy с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:00,755 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getMaxHttpRequestHeaderSize с аргументами []
-2024-08-17 11:01:00,756 INFO o.e.s.a.LoggingAspect [main] Метод getMaxHttpRequestHeaderSize с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:00,778 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getTomcat с аргументами []
-2024-08-17 11:01:00,778 INFO o.e.s.a.LoggingAspect [main] Метод getTomcat с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,779 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getError с аргументами []
-2024-08-17 11:01:00,780 INFO o.e.s.a.LoggingAspect [main] Метод getError с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:00,781 INFO o.e.s.a.LoggingAspect [main] Метод customize с аргументами [org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory@44a085e5] выполнился за 42 мс
-2024-08-17 11:01:00,783 INFO o.e.s.a.LoggingAspect [main] Выполнение метода customize с аргументами [org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory@44a085e5]
-2024-08-17 11:01:00,785 INFO o.e.s.a.LoggingAspect [main] Метод customize с аргументами [org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory@44a085e5] выполнился за 3 мс
-2024-08-17 11:01:00,830 INFO o.e.s.a.LoggingAspect [main] Выполнение метода dispatcherServlet с аргументами [org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties@1a8b81e8]
-2024-08-17 11:01:00,831 INFO o.e.s.a.LoggingAspect [main] Выполнение метода toString с аргументами []
-2024-08-17 11:01:00,831 INFO o.e.s.a.LoggingAspect [main] Метод toString с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,843 INFO o.e.s.a.LoggingAspect [main] Выполнение метода isDispatchOptionsRequest с аргументами []
-2024-08-17 11:01:00,843 INFO o.e.s.a.LoggingAspect [main] Метод isDispatchOptionsRequest с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:00,844 INFO o.e.s.a.LoggingAspect [main] Выполнение метода isDispatchTraceRequest с аргументами []
-2024-08-17 11:01:00,844 INFO o.e.s.a.LoggingAspect [main] Метод isDispatchTraceRequest с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,845 INFO o.e.s.a.LoggingAspect [main] Выполнение метода isThrowExceptionIfNoHandlerFound с аргументами []
-2024-08-17 11:01:00,845 INFO o.e.s.a.LoggingAspect [main] Метод isThrowExceptionIfNoHandlerFound с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,846 INFO o.e.s.a.LoggingAspect [main] Выполнение метода isPublishRequestHandledEvents с аргументами []
-2024-08-17 11:01:00,846 INFO o.e.s.a.LoggingAspect [main] Метод isPublishRequestHandledEvents с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,847 INFO o.e.s.a.LoggingAspect [main] Выполнение метода isLogRequestDetails с аргументами []
-2024-08-17 11:01:00,848 INFO o.e.s.a.LoggingAspect [main] Метод isLogRequestDetails с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,848 INFO o.e.s.a.LoggingAspect [main] Метод dispatcherServlet с аргументами [org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties@1a8b81e8] выполнился за 18 мс
-2024-08-17 11:01:00,850 INFO o.e.s.a.LoggingAspect [main] Выполнение метода toString с аргументами []
-2024-08-17 11:01:00,851 INFO o.e.s.a.LoggingAspect [main] Метод toString с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:00,901 INFO o.e.s.a.LoggingAspect [main] Выполнение метода dispatcherServletRegistration с аргументами [org.springframework.web.servlet.DispatcherServlet@42cc183e, org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties@1a8b81e8, org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider@6a1d6ef2]
-2024-08-17 11:01:00,904 INFO o.e.s.a.LoggingAspect [main] Выполнение метода toString с аргументами []
-2024-08-17 11:01:00,904 INFO o.e.s.a.LoggingAspect [main] Метод toString с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,904 INFO o.e.s.a.LoggingAspect [main] Выполнение метода toString с аргументами []
-2024-08-17 11:01:00,904 INFO o.e.s.a.LoggingAspect [main] Метод toString с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,908 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getServlet с аргументами []
-2024-08-17 11:01:00,908 INFO o.e.s.a.LoggingAspect [main] Метод getServlet с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,909 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getServlet с аргументами []
-2024-08-17 11:01:00,910 INFO o.e.s.a.LoggingAspect [main] Метод getServlet с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:00,934 INFO o.e.s.a.LoggingAspect [main] Выполнение метода multipartConfigElement с аргументами []
-2024-08-17 11:01:00,934 INFO o.e.s.a.LoggingAspect [main] Выполнение метода createMultipartConfig с аргументами []
-2024-08-17 11:01:00,952 INFO o.e.s.a.LoggingAspect [main] Метод createMultipartConfig с аргументами [] выполнился за 18 мс
-2024-08-17 11:01:00,953 INFO o.e.s.a.LoggingAspect [main] Метод multipartConfigElement с аргументами [] выполнился за 19 мс
-2024-08-17 11:01:00,962 INFO o.e.s.a.LoggingAspect [main] Метод dispatcherServletRegistration с аргументами [org.springframework.web.servlet.DispatcherServlet@42cc183e, org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties@1a8b81e8, org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider@6a1d6ef2] выполнился за 61 мс
-2024-08-17 11:01:00,964 INFO o.e.s.a.LoggingAspect [main] Выполнение метода toString с аргументами []
-2024-08-17 11:01:00,964 INFO o.e.s.a.LoggingAspect [main] Метод toString с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,964 INFO o.e.s.a.LoggingAspect [main] Выполнение метода toString с аргументами []
-2024-08-17 11:01:00,965 INFO o.e.s.a.LoggingAspect [main] Метод toString с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:00,987 INFO o.e.s.a.LoggingAspect [main] Выполнение метода errorPageCustomizer с аргументами [dispatcherServlet urls=[/]]
-2024-08-17 11:01:00,989 INFO o.e.s.a.LoggingAspect [main] Выполнение метода toString с аргументами []
-2024-08-17 11:01:00,989 INFO o.e.s.a.LoggingAspect [main] Метод toString с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,989 INFO o.e.s.a.LoggingAspect [main] Метод errorPageCustomizer с аргументами [dispatcherServlet urls=[/]] выполнился за 2 мс
-2024-08-17 11:01:00,990 INFO o.e.s.a.LoggingAspect [main] Выполнение метода toString с аргументами []
-2024-08-17 11:01:00,991 INFO o.e.s.a.LoggingAspect [main] Метод toString с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:00,999 INFO o.e.s.a.LoggingAspect [main] Выполнение метода registerErrorPages с аргументами [org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory@44a085e5]
-2024-08-17 11:01:00,999 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getError с аргументами []
-2024-08-17 11:01:01,000 INFO o.e.s.a.LoggingAspect [main] Метод getError с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:01,001 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getRelativePath с аргументами [/error]
-2024-08-17 11:01:01,002 INFO o.e.s.a.LoggingAspect [main] Метод getRelativePath с аргументами [/error] выполнился за 1 мс
-2024-08-17 11:01:01,003 INFO o.e.s.a.LoggingAspect [main] Метод registerErrorPages с аргументами [org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory@44a085e5] выполнился за 3 мс
-2024-08-17 11:01:01,036 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getWebServer с аргументами [[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext$$Lambda/0x000002314f437430@b46e103]]
-2024-08-17 11:01:01,373 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getServlet с аргументами []
-2024-08-17 11:01:01,374 INFO o.e.s.a.LoggingAspect [main] Метод getServlet с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:01,400 INFO o.e.s.a.LoggingAspect [main] Выполнение метода formContentFilter с аргументами []
-2024-08-17 11:01:01,402 INFO o.e.s.a.LoggingAspect [main] Метод formContentFilter с аргументами [] выполнился за 2 мс
-2024-08-17 11:01:01,414 INFO o.e.s.a.LoggingAspect [main] Выполнение метода characterEncodingFilter с аргументами []
-2024-08-17 11:01:01,415 INFO o.e.s.a.LoggingAspect [main] Метод characterEncodingFilter с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:01,427 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getOrder с аргументами []
-2024-08-17 11:01:01,428 INFO o.e.s.a.LoggingAspect [main] Метод getOrder с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:01,429 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getOrder с аргументами []
-2024-08-17 11:01:01,430 INFO o.e.s.a.LoggingAspect [main] Метод getOrder с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:01,430 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getOrder с аргументами []
-2024-08-17 11:01:01,431 INFO o.e.s.a.LoggingAspect [main] Метод getOrder с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:01,432 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getOrder с аргументами []
-2024-08-17 11:01:01,432 INFO o.e.s.a.LoggingAspect [main] Метод getOrder с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:01,436 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getOrder с аргументами []
-2024-08-17 11:01:01,436 INFO o.e.s.a.LoggingAspect [main] Метод getOrder с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:01,437 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getOrder с аргументами []
-2024-08-17 11:01:01,437 INFO o.e.s.a.LoggingAspect [main] Метод getOrder с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:01,439 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getOrder с аргументами []
-2024-08-17 11:01:01,439 INFO o.e.s.a.LoggingAspect [main] Метод getOrder с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:01,445 INFO o.e.s.a.LoggingAspect [main] Выполнение метода getDescription с аргументами []
-2024-08-17 11:01:01,446 INFO o.e.s.a.LoggingAspect [main] Метод getDescription с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:01,446 INFO o.e.s.a.LoggingAspect [main] Выполнение метода isEnabled с аргументами []
-2024-08-17 11:01:01,446 INFO o.e.s.a.LoggingAspect [main] Метод isEnabled с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:01,447 INFO o.e.s.a.LoggingAspect [main] Выполнение метода addRegistration с аргументами [servlet dispatcherServlet, org.apache.catalina.core.ApplicationContextFacade@5ccb85d6]
-2024-08-17 11:01:01,455 INFO o.e.s.a.LoggingAspect [main] Метод addRegistration с аргументами [servlet dispatcherServlet, org.apache.catalina.core.ApplicationContextFacade@5ccb85d6] выполнился за 8 мс
-2024-08-17 11:01:01,456 INFO o.e.s.a.LoggingAspect [main] Выполнение метода configure с аргументами [org.apache.catalina.core.ApplicationServletRegistration@7a8341c1]
-2024-08-17 11:01:01,456 INFO o.e.s.a.LoggingAspect [main] Метод configure с аргументами [org.apache.catalina.core.ApplicationServletRegistration@7a8341c1] выполнился за 0 мс
-2024-08-17 11:01:01,501 INFO o.e.s.a.LoggingAspect [main] Выполнение метода initFilterBean с аргументами []
-2024-08-17 11:01:01,501 INFO o.e.s.a.LoggingAspect [main] Метод initFilterBean с аргументами [] выполнился за 0 мс
-2024-08-17 11:01:01,503 ERROR o.a.c.c.C.[.[.[/] [main] Exception starting filter [requestContextFilter]
-java.lang.NullPointerException: Cannot invoke "org.apache.commons.logging.Log.isDebugEnabled()" because "this.logger" is null
-	at org.springframework.web.filter.GenericFilterBean.init(GenericFilterBean.java:239) ~[spring-web-6.1.11.jar:6.1.11]
-	at org.apache.catalina.core.ApplicationFilterConfig.initFilter(ApplicationFilterConfig.java:245) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:102) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:3846) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4450) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) [?:?]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) [?:?]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) [?:?]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) [?:?]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:516) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222) [spring-boot-3.3.2.jar:3.3.2]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:102) [spring-aop-6.1.11.jar:6.1.11]
-	at org.example.starter_logging_http_requests.aspect.LoggingAspect.logAround(LoggingAspect.java:66) [classes/:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:637) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:627) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory$$SpringCGLIB$$0.getWebServer(<generated>) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:188) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:619) [spring-context-6.1.11.jar:6.1.11]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.2.jar:3.3.2]
-	at org.example.starter_logging_http_requests.StarterLoggingHttpRequestsApplication.main(StarterLoggingHttpRequestsApplication.java:10) [classes/:?]
-2024-08-17 11:01:01,529 INFO o.e.s.a.LoggingAspect [main] Выполнение метода initFilterBean с аргументами []
-2024-08-17 11:01:01,530 INFO o.e.s.a.LoggingAspect [main] Метод initFilterBean с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:01,532 ERROR o.a.c.c.C.[.[.[/] [main] Exception starting filter [characterEncodingFilter]
-java.lang.NullPointerException: Cannot invoke "org.apache.commons.logging.Log.isDebugEnabled()" because "this.logger" is null
-	at org.springframework.web.filter.GenericFilterBean.init(GenericFilterBean.java:239) ~[spring-web-6.1.11.jar:6.1.11]
-	at org.apache.catalina.core.ApplicationFilterConfig.initFilter(ApplicationFilterConfig.java:245) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:102) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:3846) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4450) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) [?:?]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) [?:?]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) [?:?]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) [?:?]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:516) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222) [spring-boot-3.3.2.jar:3.3.2]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:102) [spring-aop-6.1.11.jar:6.1.11]
-	at org.example.starter_logging_http_requests.aspect.LoggingAspect.logAround(LoggingAspect.java:66) [classes/:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:637) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:627) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory$$SpringCGLIB$$0.getWebServer(<generated>) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:188) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:619) [spring-context-6.1.11.jar:6.1.11]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.2.jar:3.3.2]
-	at org.example.starter_logging_http_requests.StarterLoggingHttpRequestsApplication.main(StarterLoggingHttpRequestsApplication.java:10) [classes/:?]
-2024-08-17 11:01:01,538 INFO o.e.s.a.LoggingAspect [main] Выполнение метода initFilterBean с аргументами []
-2024-08-17 11:01:01,539 INFO o.e.s.a.LoggingAspect [main] Метод initFilterBean с аргументами [] выполнился за 1 мс
-2024-08-17 11:01:01,542 ERROR o.a.c.c.C.[.[.[/] [main] Exception starting filter [formContentFilter]
-java.lang.NullPointerException: Cannot invoke "org.apache.commons.logging.Log.isDebugEnabled()" because "this.logger" is null
-	at org.springframework.web.filter.GenericFilterBean.init(GenericFilterBean.java:239) ~[spring-web-6.1.11.jar:6.1.11]
-	at org.apache.catalina.core.ApplicationFilterConfig.initFilter(ApplicationFilterConfig.java:245) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:102) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:3846) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4450) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) [?:?]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) [?:?]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) [?:?]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) [?:?]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437) [tomcat-embed-core-10.1.26.jar:10.1.26]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:516) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222) [spring-boot-3.3.2.jar:3.3.2]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:102) [spring-aop-6.1.11.jar:6.1.11]
-	at org.example.starter_logging_http_requests.aspect.LoggingAspect.logAround(LoggingAspect.java:66) [classes/:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:637) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:627) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720) [spring-aop-6.1.11.jar:6.1.11]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory$$SpringCGLIB$$0.getWebServer(<generated>) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:188) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:619) [spring-context-6.1.11.jar:6.1.11]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.2.jar:3.3.2]
-	at org.example.starter_logging_http_requests.StarterLoggingHttpRequestsApplication.main(StarterLoggingHttpRequestsApplication.java:10) [classes/:?]
-2024-08-17 11:01:01,546 ERROR o.a.c.c.StandardContext [main] One or more Filters failed to start. Full details will be found in the appropriate container log file
-2024-08-17 11:01:01,547 ERROR o.a.c.c.StandardContext [main] Context [] startup failed due to previous errors
-2024-08-17 11:04:54,123 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 12432 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
-2024-08-17 11:04:54,146 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
-2024-08-17 11:04:54,150 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-08-17 11:04:57,710 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 4.342 seconds (process running for 6.183)
-2024-08-17 11:05:07,747 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureRequest {
-requestMethodType = GET
-url = /api/order/
-processingTime = 1 ms
-requestHeader = {postman-token=1110da75-d102-4811-89fe-6532067bd90e, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
-}
-2024-08-17 11:05:07,937 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureResponse {
-statusCode = 200
-processingTime = 192 ms
-responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 08:05:07 GMT, Content-Type=application/json}
-}
-2024-08-17 11:06:58,374 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 1720 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
-2024-08-17 11:06:58,390 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
-2024-08-17 11:06:58,393 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-08-17 11:07:01,503 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 3.896 seconds (process running for 5.557)
-2024-08-17 11:07:11,664 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureRequest {
-requestMethodType = GET
-url = /api/order/
-processingTime = 1 ms
-requestHeader = {postman-token=6a5f331a-2d1d-49ff-8c84-f4bd8019739b, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
-}
-2024-08-17 11:07:11,785 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureResponse {
-statusCode = 200
-processingTime = 120 ms
-responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 08:07:11 GMT, Content-Type=application/json}
-}
-2024-08-17 11:39:47,324 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 7768 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
-2024-08-17 11:39:47,344 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
-2024-08-17 11:39:47,348 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-08-17 11:39:50,787 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 4.292 seconds (process running for 6.107)
-2024-08-17 11:39:51,755 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureRequest {
-requestMethodType = GET
-url = /api/order/10
-processingTime = 2 ms
-requestHeader = {postman-token=35f5b751-5473-4688-b814-5f668292e711, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
-}
-2024-08-17 11:39:51,836 ERROR o.e.s.a.ExceptionHandlerAspect [http-nio-8080-exec-2] Произошла ошибка при вызове метода: public org.springframework.http.ResponseEntity org.example.starter_logging_http_requests.orderApplication.controller.OrderController.getOrderById(int)
-2024-08-17 11:39:51,838 ERROR o.e.s.a.ExceptionHandlerAspect [http-nio-8080-exec-2] Ошибка: Заказ 10 не найден
-2024-08-17 11:39:51,846 ERROR o.s.w.s.HandlerExecutionChain [http-nio-8080-exec-2] HandlerInterceptor.afterCompletion threw exception
-org.example.starter_logging_http_requests.exception.LoggingStartupHttpException: Ошибка при выполнении метода afterCompletion: Заказ 10 не найден, URL: /api/order/10
+2024-08-17 12:18:26,606 ERROR o.e.s.a.ExceptionHandlerAspect [http-nio-8080-exec-8] Произошла ошибка при вызове метода: public org.springframework.http.ResponseEntity org.example.starter_logging_http_requests.orderApplication.controller.OrderController.getOrdersByUserName(java.lang.String)
+2024-08-17 12:18:26,609 ERROR o.e.s.a.ExceptionHandlerAspect [http-nio-8080-exec-8] Ошибка: null
+2024-08-17 12:18:26,616 ERROR o.s.w.s.HandlerExecutionChain [http-nio-8080-exec-8] HandlerInterceptor.afterCompletion threw exception
+org.example.starter_logging_http_requests.exception.LoggingStartupHttpException: Ошибка при выполнении метода afterCompletion: null, URL: /api/order/user/user1
 	at org.example.starter_logging_http_requests.filter.LoggingHttpInterceptor.afterCompletion(LoggingHttpInterceptor.java:95) ~[classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.triggerAfterCompletion(HandlerExecutionChain.java:176) ~[spring-webmvc-6.1.11.jar:6.1.11]
 	at org.springframework.web.servlet.DispatcherServlet.triggerAfterCompletion(DispatcherServlet.java:1485) ~[spring-webmvc-6.1.11.jar:6.1.11]
@@ -742,17 +110,20 @@ org.example.starter_logging_http_requests.exception.LoggingStartupHttpException:
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
 	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
-2024-08-17 11:39:51,869 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.example.starter_logging_http_requests.orderApplication.exception.OrderApplicationException: Заказ 10 не найден] with root cause
-org.example.starter_logging_http_requests.orderApplication.exception.OrderApplicationException: Заказ 10 не найден
-	at org.example.starter_logging_http_requests.orderApplication.service.OrderService.lambda$getOrderByOrderId$1(OrderService.java:45) ~[classes/:?]
-	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at org.example.starter_logging_http_requests.orderApplication.service.OrderService.getOrderByOrderId(OrderService.java:44) ~[classes/:?]
-	at org.example.starter_logging_http_requests.orderApplication.controller.OrderController.getOrderById(OrderController.java:20) ~[classes/:?]
+2024-08-17 12:18:26,638 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-8] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220) ~[?:?]
+	at java.base/java.util.ImmutableCollections$MapN.containsKey(ImmutableCollections.java:1207) ~[?:?]
+	at org.example.starter_logging_http_requests.orderApplication.service.OrderService.getOrderByUserName(OrderService.java:32) ~[classes/:?]
+	at org.example.starter_logging_http_requests.orderApplication.controller.OrderController.getOrdersByUserName(OrderController.java:59) ~[classes/:?]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
 	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354) ~[spring-aop-6.1.11.jar:6.1.11]
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.1.11.jar:6.1.11]
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.1.11.jar:6.1.11]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.11.jar:6.1.11]
 	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-6.1.11.jar:6.1.11]
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.11.jar:6.1.11]
@@ -761,7 +132,7 @@ org.example.starter_logging_http_requests.orderApplication.exception.OrderApplic
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.11.jar:6.1.11]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.11.jar:6.1.11]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720) ~[spring-aop-6.1.11.jar:6.1.11]
-	at org.example.starter_logging_http_requests.orderApplication.controller.OrderController$$SpringCGLIB$$0.getOrderById(<generated>) ~[classes/:?]
+	at org.example.starter_logging_http_requests.orderApplication.controller.OrderController$$SpringCGLIB$$0.getOrdersByUserName(<generated>) ~[classes/:?]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.11.jar:6.1.11]
@@ -810,14 +181,910 @@ org.example.starter_logging_http_requests.orderApplication.exception.OrderApplic
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
 	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
-2024-08-17 11:39:51,890 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureRequest {
+2024-08-17 12:18:26,657 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-8] LogStructureRequest {
 requestMethodType = GET
 url = /error
 processingTime = 0 ms
-requestHeader = {postman-token=35f5b751-5473-4688-b814-5f668292e711, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+requestHeader = {postman-token=c5385ae4-c854-4150-a9af-64e992a5ac17, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
 }
-2024-08-17 11:39:52,043 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureResponse {
+2024-08-17 12:18:26,689 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-8] LogStructureResponse {
 statusCode = 500
-processingTime = 143 ms
-responseHeader = {Transfer-Encoding=chunked, Connection=close, Date=Sat, 17 Aug 2024 08:39:52 GMT, Content-Type=application/json}
+processingTime = 32 ms
+responseHeader = {Transfer-Encoding=chunked, Connection=close, Date=Sat, 17 Aug 2024 09:18:26 GMT, Content-Type=application/json}
+}
+2024-08-17 12:21:11,562 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 12052 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
+2024-08-17 12:21:11,585 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-17 12:21:11,589 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-08-17 12:21:14,555 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 3.746 seconds (process running for 5.468)
+2024-08-17 12:21:18,656 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureRequest {
+requestMethodType = GET
+url = /api/order/user/user1
+processingTime = 2 ms
+requestHeader = {postman-token=27b4e1e1-870e-4288-936c-87a2fe06e034, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:21:18,754 INFO o.e.s.a.SuccessLoggingAspect [http-nio-8080-exec-2] Метод getOrdersByUserName успешно выполнился с аргументами: [user1]
+2024-08-17 12:21:18,957 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureResponse {
+statusCode = 200
+processingTime = 299 ms
+responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 09:21:18 GMT, Content-Type=application/json}
+}
+2024-08-17 12:21:56,178 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureRequest {
+requestMethodType = GET
+url = /api/order/user/user5
+processingTime = 1 ms
+requestHeader = {postman-token=f83c83d7-a2a0-4297-8561-bdcffcca96b6, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:21:56,182 INFO o.e.s.a.SuccessLoggingAspect [http-nio-8080-exec-3] Метод getOrdersByUserName успешно выполнился с аргументами: [user5]
+2024-08-17 12:21:56,187 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureResponse {
+statusCode = 404
+processingTime = 10 ms
+responseHeader = {Keep-Alive=timeout=60, Connection=keep-alive, Content-Length=48, Date=Sat, 17 Aug 2024 09:21:56 GMT, Content-Type=text/plain;charset=UTF-8}
+}
+2024-08-17 12:23:35,675 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-9] LogStructureRequest {
+requestMethodType = GET
+url = /api/order/
+processingTime = 1 ms
+requestHeader = {postman-token=42aca47b-d07a-49e4-b33f-51688763c8df, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:23:35,677 INFO o.e.s.a.SuccessLoggingAspect [http-nio-8080-exec-9] Метод getAllOrders успешно выполнился с аргументами: []
+2024-08-17 12:23:35,691 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-9] LogStructureResponse {
+statusCode = 200
+processingTime = 17 ms
+responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 09:23:35 GMT, Content-Type=application/json}
+}
+2024-08-17 12:23:56,303 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-5] LogStructureRequest {
+requestMethodType = POST
+url = /api/order/
+processingTime = 0 ms
+requestHeader = {content-length=59, postman-token=1630948a-67c0-4480-8e4f-e11986e5e8ba, host=localhost:8080, content-type=application/json, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:23:56,444 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-5] LogStructureResponse {
+statusCode = 400
+processingTime = 140 ms
+responseHeader = {}
+}
+2024-08-17 12:23:56,463 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-5] LogStructureRequest {
+requestMethodType = POST
+url = /error
+processingTime = 0 ms
+requestHeader = {content-length=59, postman-token=1630948a-67c0-4480-8e4f-e11986e5e8ba, host=localhost:8080, content-type=application/json, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:23:56,484 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-5] LogStructureResponse {
+statusCode = 400
+processingTime = 20 ms
+responseHeader = {Transfer-Encoding=chunked, Connection=close, Date=Sat, 17 Aug 2024 09:23:56 GMT, Content-Type=application/json}
+}
+2024-08-17 12:24:34,794 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-6] LogStructureRequest {
+requestMethodType = POST
+url = /api/order/
+processingTime = 1 ms
+requestHeader = {content-length=59, postman-token=a52daf4d-d476-41ba-8f8d-81625224d773, host=localhost:8080, content-type=application/json, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:24:34,800 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-6] LogStructureResponse {
+statusCode = 400
+processingTime = 8 ms
+responseHeader = {}
+}
+2024-08-17 12:24:34,806 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-6] LogStructureRequest {
+requestMethodType = POST
+url = /error
+processingTime = 1 ms
+requestHeader = {content-length=59, postman-token=a52daf4d-d476-41ba-8f8d-81625224d773, host=localhost:8080, content-type=application/json, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:24:34,812 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-6] LogStructureResponse {
+statusCode = 400
+processingTime = 7 ms
+responseHeader = {Transfer-Encoding=chunked, Connection=close, Date=Sat, 17 Aug 2024 09:24:34 GMT, Content-Type=application/json}
+}
+2024-08-17 12:25:35,448 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureRequest {
+requestMethodType = POST
+url = /api/order/
+processingTime = 1 ms
+requestHeader = {content-length=136, postman-token=99349bc6-bdd5-465d-8468-f1430a3a8d71, host=localhost:8080, content-type=application/json, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:25:35,451 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureResponse {
+statusCode = 400
+processingTime = 4 ms
+responseHeader = {}
+}
+2024-08-17 12:25:35,453 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureRequest {
+requestMethodType = POST
+url = /error
+processingTime = 0 ms
+requestHeader = {content-length=136, postman-token=99349bc6-bdd5-465d-8468-f1430a3a8d71, host=localhost:8080, content-type=application/json, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:25:35,457 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureResponse {
+statusCode = 400
+processingTime = 4 ms
+responseHeader = {Transfer-Encoding=chunked, Connection=close, Date=Sat, 17 Aug 2024 09:25:35 GMT, Content-Type=application/json}
+}
+2024-08-17 12:26:55,645 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 12864 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
+2024-08-17 12:26:55,654 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-17 12:26:55,656 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-08-17 12:27:02,094 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 7.275 seconds (process running for 9.734)
+2024-08-17 12:27:09,992 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureRequest {
+requestMethodType = POST
+url = /api/order/
+processingTime = 7 ms
+requestHeader = {content-length=136, postman-token=342108c0-bd90-48f1-897f-928d34a28ab3, host=localhost:8080, content-type=application/json, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:27:29,255 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureResponse {
+statusCode = 400
+processingTime = 14669 ms
+responseHeader = {}
+}
+2024-08-17 12:27:29,364 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureRequest {
+requestMethodType = POST
+url = /error
+processingTime = 0 ms
+requestHeader = {content-length=136, postman-token=342108c0-bd90-48f1-897f-928d34a28ab3, host=localhost:8080, content-type=application/json, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:27:29,764 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureResponse {
+statusCode = 400
+processingTime = 400 ms
+responseHeader = {Transfer-Encoding=chunked, Connection=close, Date=Sat, 17 Aug 2024 09:27:29 GMT, Content-Type=application/json}
+}
+2024-08-17 12:29:39,749 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 13684 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
+2024-08-17 12:29:39,764 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-17 12:29:39,766 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-08-17 12:29:45,574 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 6.489 seconds (process running for 8.73)
+2024-08-17 12:29:50,995 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureRequest {
+requestMethodType = POST
+url = /api/order/
+processingTime = 13 ms
+requestHeader = {content-length=136, postman-token=4793406a-05a7-4a6f-815f-a4b4fcf15e97, host=localhost:8080, content-type=application/json, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:30:18,357 ERROR o.e.s.a.ExceptionHandlerAspect [http-nio-8080-exec-1] Произошла ошибка при вызове метода: public org.springframework.http.ResponseEntity org.example.starter_logging_http_requests.orderApplication.controller.OrderController.createOrder(org.example.starter_logging_http_requests.orderApplication.entity.Order)
+2024-08-17 12:30:18,359 ERROR o.e.s.a.ExceptionHandlerAspect [http-nio-8080-exec-1] Ошибка: null
+2024-08-17 12:30:18,370 ERROR o.s.w.s.HandlerExecutionChain [http-nio-8080-exec-1] HandlerInterceptor.afterCompletion threw exception
+org.example.starter_logging_http_requests.exception.LoggingStartupHttpException: Ошибка при выполнении метода afterCompletion: null, URL: /api/order/
+	at org.example.starter_logging_http_requests.filter.LoggingHttpInterceptor.afterCompletion(LoggingHttpInterceptor.java:95) ~[classes/:?]
+	at org.springframework.web.servlet.HandlerExecutionChain.triggerAfterCompletion(HandlerExecutionChain.java:176) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.triggerAfterCompletion(DispatcherServlet.java:1485) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1109) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+2024-08-17 12:30:18,428 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.UnsupportedOperationException] with root cause
+java.lang.UnsupportedOperationException: null
+	at java.base/java.util.ImmutableCollections.uoe(ImmutableCollections.java:142) ~[?:?]
+	at java.base/java.util.ImmutableCollections$AbstractImmutableMap.put(ImmutableCollections.java:1079) ~[?:?]
+	at org.example.starter_logging_http_requests.orderApplication.service.OrderService.addOrder(OrderService.java:21) ~[classes/:?]
+	at org.example.starter_logging_http_requests.orderApplication.controller.OrderController.createOrder(OrderController.java:114) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.example.starter_logging_http_requests.orderApplication.controller.OrderController$$SpringCGLIB$$0.createOrder(<generated>) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+2024-08-17 12:30:18,469 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureRequest {
+requestMethodType = POST
+url = /error
+processingTime = 0 ms
+requestHeader = {content-length=136, postman-token=4793406a-05a7-4a6f-815f-a4b4fcf15e97, host=localhost:8080, content-type=application/json, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:30:18,625 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureResponse {
+statusCode = 500
+processingTime = 131 ms
+responseHeader = {Transfer-Encoding=chunked, Connection=close, Date=Sat, 17 Aug 2024 09:30:18 GMT, Content-Type=application/json}
+}
+2024-08-17 12:30:48,827 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 13568 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
+2024-08-17 12:30:48,858 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-17 12:30:48,863 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-08-17 12:30:54,204 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 6.1 seconds (process running for 8.126)
+2024-08-17 12:30:55,937 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureRequest {
+requestMethodType = POST
+url = /api/order/
+processingTime = 7 ms
+requestHeader = {content-length=136, postman-token=82f4d88b-7766-456b-988d-d0ba2ee51e7c, host=localhost:8080, content-type=application/json, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:32:22,863 ERROR o.e.s.a.ExceptionHandlerAspect [http-nio-8080-exec-2] Произошла ошибка при вызове метода: public org.springframework.http.ResponseEntity org.example.starter_logging_http_requests.orderApplication.controller.OrderController.createOrder(org.example.starter_logging_http_requests.orderApplication.entity.Order)
+2024-08-17 12:32:22,865 ERROR o.e.s.a.ExceptionHandlerAspect [http-nio-8080-exec-2] Ошибка: null
+2024-08-17 12:32:22,894 ERROR o.s.w.s.HandlerExecutionChain [http-nio-8080-exec-2] HandlerInterceptor.afterCompletion threw exception
+org.example.starter_logging_http_requests.exception.LoggingStartupHttpException: Ошибка при выполнении метода afterCompletion: null, URL: /api/order/
+	at org.example.starter_logging_http_requests.filter.LoggingHttpInterceptor.afterCompletion(LoggingHttpInterceptor.java:95) ~[classes/:?]
+	at org.springframework.web.servlet.HandlerExecutionChain.triggerAfterCompletion(HandlerExecutionChain.java:176) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.triggerAfterCompletion(DispatcherServlet.java:1485) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1109) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+2024-08-17 12:32:23,049 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.UnsupportedOperationException] with root cause
+java.lang.UnsupportedOperationException: null
+	at java.base/java.util.ImmutableCollections.uoe(ImmutableCollections.java:142) ~[?:?]
+	at java.base/java.util.ImmutableCollections$AbstractImmutableMap.put(ImmutableCollections.java:1079) ~[?:?]
+	at org.example.starter_logging_http_requests.orderApplication.service.OrderService.addOrder(OrderService.java:21) ~[classes/:?]
+	at org.example.starter_logging_http_requests.orderApplication.controller.OrderController.createOrder(OrderController.java:114) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.example.starter_logging_http_requests.orderApplication.controller.OrderController$$SpringCGLIB$$0.createOrder(<generated>) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+2024-08-17 12:32:23,144 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureRequest {
+requestMethodType = POST
+url = /error
+processingTime = 0 ms
+requestHeader = {content-length=136, postman-token=82f4d88b-7766-456b-988d-d0ba2ee51e7c, host=localhost:8080, content-type=application/json, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:32:23,430 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureResponse {
+statusCode = 500
+processingTime = 256 ms
+responseHeader = {Transfer-Encoding=chunked, Connection=close, Date=Sat, 17 Aug 2024 09:32:23 GMT, Content-Type=application/json}
+}
+2024-08-17 12:32:59,757 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 10196 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
+2024-08-17 12:32:59,775 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-17 12:32:59,779 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-08-17 12:33:02,794 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 3.648 seconds (process running for 5.336)
+2024-08-17 12:33:06,569 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureRequest {
+requestMethodType = POST
+url = /api/order/
+processingTime = 3 ms
+requestHeader = {content-length=136, postman-token=cbc4b16c-9c73-4d40-abca-87caa63f870c, host=localhost:8080, content-type=application/json, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:33:06,832 ERROR o.e.s.a.ExceptionHandlerAspect [http-nio-8080-exec-3] Произошла ошибка при вызове метода: public org.springframework.http.ResponseEntity org.example.starter_logging_http_requests.orderApplication.controller.OrderController.createOrder(org.example.starter_logging_http_requests.orderApplication.entity.Order)
+2024-08-17 12:33:06,834 ERROR o.e.s.a.ExceptionHandlerAspect [http-nio-8080-exec-3] Ошибка: null
+2024-08-17 12:33:06,840 ERROR o.s.w.s.HandlerExecutionChain [http-nio-8080-exec-3] HandlerInterceptor.afterCompletion threw exception
+org.example.starter_logging_http_requests.exception.LoggingStartupHttpException: Ошибка при выполнении метода afterCompletion: null, URL: /api/order/
+	at org.example.starter_logging_http_requests.filter.LoggingHttpInterceptor.afterCompletion(LoggingHttpInterceptor.java:95) ~[classes/:?]
+	at org.springframework.web.servlet.HandlerExecutionChain.triggerAfterCompletion(HandlerExecutionChain.java:176) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.triggerAfterCompletion(DispatcherServlet.java:1485) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1109) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+2024-08-17 12:33:06,865 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-3] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.UnsupportedOperationException] with root cause
+java.lang.UnsupportedOperationException: null
+	at java.base/java.util.ImmutableCollections.uoe(ImmutableCollections.java:142) ~[?:?]
+	at java.base/java.util.ImmutableCollections$AbstractImmutableMap.put(ImmutableCollections.java:1079) ~[?:?]
+	at org.example.starter_logging_http_requests.orderApplication.service.OrderService.addOrder(OrderService.java:21) ~[classes/:?]
+	at org.example.starter_logging_http_requests.orderApplication.controller.OrderController.createOrder(OrderController.java:114) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.example.starter_logging_http_requests.orderApplication.controller.OrderController$$SpringCGLIB$$0.createOrder(<generated>) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+2024-08-17 12:33:06,885 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureRequest {
+requestMethodType = POST
+url = /error
+processingTime = 0 ms
+requestHeader = {content-length=136, postman-token=cbc4b16c-9c73-4d40-abca-87caa63f870c, host=localhost:8080, content-type=application/json, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:33:06,969 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureResponse {
+statusCode = 500
+processingTime = 78 ms
+responseHeader = {Transfer-Encoding=chunked, Connection=close, Date=Sat, 17 Aug 2024 09:33:06 GMT, Content-Type=application/json}
+}
+2024-08-17 12:34:42,550 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 5128 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
+2024-08-17 12:34:42,567 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-17 12:34:42,570 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-08-17 12:34:45,672 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 3.922 seconds (process running for 5.602)
+2024-08-17 12:34:49,933 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureRequest {
+requestMethodType = POST
+url = /api/order/
+processingTime = 2 ms
+requestHeader = {content-length=136, postman-token=de1c2d79-f203-4f17-afb3-a0b7bf90cbda, host=localhost:8080, content-type=application/json, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:34:50,192 INFO o.e.s.a.SuccessLoggingAspect [http-nio-8080-exec-1] Метод createOrder успешно выполнился с аргументами: [Order(orderId=5, description=Pizza, status=CREATED, orderUserName=NewUser)]
+2024-08-17 12:34:50,251 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureResponse {
+statusCode = 201
+processingTime = 321 ms
+responseHeader = {}
+}
+2024-08-17 12:38:50,335 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 9380 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
+2024-08-17 12:38:50,347 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-17 12:38:50,350 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-08-17 12:38:53,579 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 3.951 seconds (process running for 5.801)
+2024-08-17 12:38:59,810 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureRequest {
+requestMethodType = POST
+url = /api/order/
+processingTime = 2 ms
+requestHeader = {content-length=136, postman-token=242587a9-dc70-42bb-aead-330b68c04258, host=localhost:8080, content-type=application/json, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:39:00,056 INFO o.e.s.a.SuccessLoggingAspect [http-nio-8080-exec-1] Метод createOrder успешно выполнился с аргументами: [Order(orderId=5, description=Pizza, status=CREATED, orderUserName=NewUser)]
+2024-08-17 12:39:00,105 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureResponse {
+statusCode = 201
+processingTime = 297 ms
+responseHeader = {}
+}
+2024-08-17 12:40:44,120 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 8752 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
+2024-08-17 12:40:44,145 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-17 12:40:44,149 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-08-17 12:40:47,372 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 4.034 seconds (process running for 5.952)
+2024-08-17 12:40:53,118 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureRequest {
+requestMethodType = POST
+url = /api/order/
+processingTime = 2 ms
+requestHeader = {content-length=136, postman-token=b29b38e4-56c4-4e18-acfb-8b04930ea666, host=localhost:8080, content-type=application/json, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:40:53,312 INFO o.e.s.a.SuccessLoggingAspect [http-nio-8080-exec-2] Метод createOrder успешно выполнился с аргументами: [Order(orderId=5, description=Pizza, status=CREATED, orderUserName=NewUser)]
+2024-08-17 12:40:53,382 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureResponse {
+statusCode = 201
+processingTime = 266 ms
+responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 09:40:53 GMT, Content-Type=application/json}
+}
+2024-08-17 12:43:55,326 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-5] LogStructureRequest {
+requestMethodType = PUT
+url = /api/order/user1
+processingTime = 0 ms
+requestHeader = {content-length=126, postman-token=6ee0a2d1-d922-4b3d-9ac4-d2df10cc5eab, host=localhost:8080, content-type=application/json, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:43:55,339 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-5] LogStructureResponse {
+statusCode = 500
+processingTime = 13 ms
+responseHeader = {}
+}
+2024-08-17 12:43:55,355 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-5] LogStructureRequest {
+requestMethodType = PUT
+url = /error
+processingTime = 0 ms
+requestHeader = {content-length=126, postman-token=6ee0a2d1-d922-4b3d-9ac4-d2df10cc5eab, host=localhost:8080, content-type=application/json, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:43:55,385 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-5] LogStructureResponse {
+statusCode = 500
+processingTime = 31 ms
+responseHeader = {Transfer-Encoding=chunked, Connection=close, Date=Sat, 17 Aug 2024 09:43:55 GMT, Content-Type=application/json}
+}
+2024-08-17 12:45:25,141 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 13920 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
+2024-08-17 12:45:25,153 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-17 12:45:25,156 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-08-17 12:45:28,653 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 4.382 seconds (process running for 6.201)
+2024-08-17 12:46:17,258 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 4148 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
+2024-08-17 12:46:17,270 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-17 12:46:17,271 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-08-17 12:46:19,179 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 2.301 seconds (process running for 3.692)
+2024-08-17 12:46:22,035 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureRequest {
+requestMethodType = PUT
+url = /error
+processingTime = 2 ms
+requestHeader = {content-length=126, postman-token=1a64d07a-55e1-4d0a-b8b4-cec5b27b0c47, host=localhost:8080, content-type=application/json, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:46:22,115 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureResponse {
+statusCode = 405
+processingTime = 83 ms
+responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 09:46:22 GMT, Allow=GET, Content-Type=application/json}
+}
+2024-08-17 12:47:07,688 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 12332 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
+2024-08-17 12:47:07,706 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-17 12:47:07,710 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-08-17 12:47:13,508 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 6.508 seconds (process running for 8.794)
+2024-08-17 12:47:18,829 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureRequest {
+requestMethodType = PUT
+url = /error
+processingTime = 13 ms
+requestHeader = {content-length=126, postman-token=496b4a7d-15ff-4ef5-85a0-e9deed558b95, host=localhost:8080, content-type=application/json, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:47:19,694 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureResponse {
+statusCode = 405
+processingTime = 871 ms
+responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 09:47:19 GMT, Allow=GET, Content-Type=application/json}
+}
+2024-08-17 12:47:26,383 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureRequest {
+requestMethodType = PUT
+url = /api/order/
+processingTime = 0 ms
+requestHeader = {content-length=126, postman-token=60ec50fa-209d-45c7-8dac-beafd04465e8, host=localhost:8080, content-type=application/json, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:47:54,575 INFO o.e.s.a.SuccessLoggingAspect [http-nio-8080-exec-2] Метод updateOrder успешно выполнился с аргументами: [Order(orderId=1, description=Pizza, status=CANCELLED, orderUserName=user1)]
+2024-08-17 12:47:54,673 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureResponse {
+statusCode = 200
+processingTime = 28290 ms
+responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 09:47:54 GMT, Content-Type=application/json}
+}
+2024-08-17 12:49:36,444 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 1860 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
+2024-08-17 12:49:36,459 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-17 12:49:36,462 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-08-17 12:49:41,736 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 6.004 seconds (process running for 7.878)
+2024-08-17 12:49:46,341 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureRequest {
+requestMethodType = PUT
+url = /api/order/
+processingTime = 13 ms
+requestHeader = {content-length=126, postman-token=4db7be33-bc07-4343-908d-498d0441e61f, host=localhost:8080, content-type=application/json, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:50:19,397 INFO o.e.s.a.SuccessLoggingAspect [http-nio-8080-exec-3] Метод updateOrder успешно выполнился с аргументами: [Order(orderId=1, description=Pizza, status=CANCELLED, orderUserName=user1)]
+2024-08-17 12:50:19,537 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureResponse {
+statusCode = 200
+processingTime = 33281 ms
+responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 09:50:19 GMT, Content-Type=application/json}
+}
+2024-08-17 12:53:51,241 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 12504 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
+2024-08-17 12:53:51,262 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-17 12:53:51,266 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-08-17 12:53:54,420 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 4.005 seconds (process running for 5.752)
+2024-08-17 12:53:58,893 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureRequest {
+requestMethodType = PUT
+url = /api/order/
+processingTime = 3 ms
+requestHeader = {content-length=126, postman-token=1626c7e4-9a77-4564-bfdf-74ea289f0216, host=localhost:8080, content-type=application/json, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:53:59,191 INFO o.e.s.a.SuccessLoggingAspect [http-nio-8080-exec-1] Метод updateOrder успешно выполнился с аргументами: [Order(orderId=1, description=Pizza, status=CANCELLED, orderUserName=user1)]
+2024-08-17 12:53:59,261 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureResponse {
+statusCode = 200
+processingTime = 380 ms
+responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 09:53:59 GMT, Content-Type=application/json}
+}
+2024-08-17 12:54:08,669 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureRequest {
+requestMethodType = GET
+url = /api/order/
+processingTime = 1 ms
+requestHeader = {postman-token=a5beac36-3e7e-4fcb-a4bd-61c1cf18b978, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:54:08,672 INFO o.e.s.a.SuccessLoggingAspect [http-nio-8080-exec-3] Метод getAllOrders успешно выполнился с аргументами: []
+2024-08-17 12:54:08,701 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureResponse {
+statusCode = 200
+processingTime = 34 ms
+responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 09:54:08 GMT, Content-Type=application/json}
+}
+2024-08-17 12:57:01,406 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 11272 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
+2024-08-17 12:57:01,419 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-17 12:57:01,422 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-08-17 12:57:04,767 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 3.922 seconds (process running for 5.672)
+2024-08-17 12:57:08,312 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureRequest {
+requestMethodType = DELETE
+url = /api/users1/1
+processingTime = 2 ms
+requestHeader = {postman-token=15d25cc2-68de-489b-a242-36149930fb01, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:57:08,333 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureResponse {
+statusCode = 404
+processingTime = 23 ms
+responseHeader = {Vary=Origin}
+}
+2024-08-17 12:57:08,351 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureRequest {
+requestMethodType = DELETE
+url = /error
+processingTime = 0 ms
+requestHeader = {postman-token=15d25cc2-68de-489b-a242-36149930fb01, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:57:08,481 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureResponse {
+statusCode = 404
+processingTime = 130 ms
+responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Vary=Origin, Date=Sat, 17 Aug 2024 09:57:08 GMT, Content-Type=application/json}
+}
+2024-08-17 12:57:16,367 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureRequest {
+requestMethodType = DELETE
+url = /api/user1/1
+processingTime = 0 ms
+requestHeader = {postman-token=1c9d8b7f-2e8c-41a7-a828-4209d5756d7c, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:57:16,371 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureResponse {
+statusCode = 404
+processingTime = 3 ms
+responseHeader = {Vary=Origin}
+}
+2024-08-17 12:57:16,373 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureRequest {
+requestMethodType = DELETE
+url = /error
+processingTime = 0 ms
+requestHeader = {postman-token=1c9d8b7f-2e8c-41a7-a828-4209d5756d7c, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:57:16,375 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureResponse {
+statusCode = 404
+processingTime = 3 ms
+responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Vary=Origin, Date=Sat, 17 Aug 2024 09:57:16 GMT, Content-Type=application/json}
+}
+2024-08-17 12:58:16,540 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-4] LogStructureRequest {
+requestMethodType = POST
+url = /api/order/
+processingTime = 0 ms
+requestHeader = {content-length=136, postman-token=0b9c9894-6dbc-48cc-a9fe-df62474a8c8c, host=localhost:8080, content-type=application/json, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:58:16,683 INFO o.e.s.a.SuccessLoggingAspect [http-nio-8080-exec-4] Метод createOrder успешно выполнился с аргументами: [Order(orderId=5, description=Pizza, status=CREATED, orderUserName=NewUser)]
+2024-08-17 12:58:16,706 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-4] LogStructureResponse {
+statusCode = 201
+processingTime = 166 ms
+responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 09:58:16 GMT, Content-Type=application/json}
+}
+2024-08-17 12:58:28,834 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-5] LogStructureRequest {
+requestMethodType = PUT
+url = /api/order/
+processingTime = 0 ms
+requestHeader = {content-length=126, postman-token=4e7103f8-569c-49f3-877a-5099ff56eab1, host=localhost:8080, content-type=application/json, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:58:28,840 INFO o.e.s.a.SuccessLoggingAspect [http-nio-8080-exec-5] Метод updateOrder успешно выполнился с аргументами: [Order(orderId=1, description=Pizza, status=CANCELLED, orderUserName=user1)]
+2024-08-17 12:58:28,844 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-5] LogStructureResponse {
+statusCode = 200
+processingTime = 10 ms
+responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Date=Sat, 17 Aug 2024 09:58:28 GMT, Content-Type=application/json}
+}
+2024-08-17 12:59:46,288 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-9] LogStructureRequest {
+requestMethodType = DELETE
+url = /api/
+processingTime = 0 ms
+requestHeader = {postman-token=e6c7d5db-554b-497d-8127-61fc359a4fc5, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:59:46,295 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-9] LogStructureResponse {
+statusCode = 404
+processingTime = 8 ms
+responseHeader = {Vary=Origin}
+}
+2024-08-17 12:59:46,300 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-9] LogStructureRequest {
+requestMethodType = DELETE
+url = /error
+processingTime = 0 ms
+requestHeader = {postman-token=e6c7d5db-554b-497d-8127-61fc359a4fc5, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:59:46,307 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-9] LogStructureResponse {
+statusCode = 404
+processingTime = 7 ms
+responseHeader = {Transfer-Encoding=chunked, Keep-Alive=timeout=60, Connection=keep-alive, Vary=Origin, Date=Sat, 17 Aug 2024 09:59:46 GMT, Content-Type=application/json}
+}
+2024-08-17 12:59:59,560 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-8] LogStructureRequest {
+requestMethodType = DELETE
+url = /api/order/user1/1
+processingTime = 1 ms
+requestHeader = {postman-token=f2bb8a37-700c-4fd3-9bd0-241186b89ef6, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 12:59:59,569 INFO o.e.s.a.SuccessLoggingAspect [http-nio-8080-exec-8] Метод deleteOrder успешно выполнился с аргументами: [user1, 1]
+2024-08-17 12:59:59,575 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-8] LogStructureResponse {
+statusCode = 200
+processingTime = 16 ms
+responseHeader = {Keep-Alive=timeout=60, Connection=keep-alive, Content-Length=60, Date=Sat, 17 Aug 2024 09:59:59 GMT, Content-Type=text/plain;charset=UTF-8}
+}
+2024-08-17 13:00:54,673 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-10] LogStructureRequest {
+requestMethodType = DELETE
+url = /api/order/user1/10
+processingTime = 1 ms
+requestHeader = {postman-token=4540b0cc-9528-44d0-bbcb-8668c5af51eb, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 13:00:54,678 INFO o.e.s.a.SuccessLoggingAspect [http-nio-8080-exec-10] Метод deleteOrder успешно выполнился с аргументами: [user1, 10]
+2024-08-17 13:00:54,684 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-10] LogStructureResponse {
+statusCode = 404
+processingTime = 11 ms
+responseHeader = {Keep-Alive=timeout=60, Connection=keep-alive, Content-Length=31, Date=Sat, 17 Aug 2024 10:00:54 GMT, Content-Type=text/plain;charset=UTF-8}
+}
+2024-08-17 13:02:28,218 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureRequest {
+requestMethodType = DELETE
+url = /api/order/user10/1
+processingTime = 1 ms
+requestHeader = {postman-token=ff44d424-af93-487d-ae20-91a8c175a732, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 13:02:28,220 INFO o.e.s.a.SuccessLoggingAspect [http-nio-8080-exec-3] Метод deleteOrder успешно выполнился с аргументами: [user10, 1]
+2024-08-17 13:02:28,226 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureResponse {
+statusCode = 404
+processingTime = 9 ms
+responseHeader = {Keep-Alive=timeout=60, Connection=keep-alive, Content-Length=30, Date=Sat, 17 Aug 2024 10:02:28 GMT, Content-Type=text/plain;charset=UTF-8}
+}
+2024-08-17 13:03:19,169 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 7552 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
+2024-08-17 13:03:19,189 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-17 13:03:19,193 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-08-17 13:03:22,598 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 4.234 seconds (process running for 5.822)
+2024-08-17 13:03:25,895 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureRequest {
+requestMethodType = DELETE
+url = /api/order/user10/1
+processingTime = 4 ms
+requestHeader = {postman-token=abdb88aa-c547-42fb-a9a4-f96d076abd1c, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 13:03:25,977 INFO o.e.s.a.SuccessLoggingAspect [http-nio-8080-exec-3] Метод deleteOrder успешно выполнился с аргументами: [user10, 1]
+2024-08-17 13:03:26,018 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-3] LogStructureResponse {
+statusCode = 404
+processingTime = 133 ms
+responseHeader = {Keep-Alive=timeout=60, Connection=keep-alive, Content-Length=49, Date=Sat, 17 Aug 2024 10:03:26 GMT, Content-Type=text/plain;charset=UTF-8}
+}
+2024-08-17 13:03:58,533 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureRequest {
+requestMethodType = DELETE
+url = /api/order/user1/10
+processingTime = 1 ms
+requestHeader = {postman-token=3535c817-5541-4df6-b209-4ca76d7d0298, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 13:03:58,537 INFO o.e.s.a.SuccessLoggingAspect [http-nio-8080-exec-2] Метод deleteOrder успешно выполнился с аргументами: [user1, 10]
+2024-08-17 13:03:58,541 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-2] LogStructureResponse {
+statusCode = 404
+processingTime = 9 ms
+responseHeader = {Keep-Alive=timeout=60, Connection=keep-alive, Content-Length=31, Date=Sat, 17 Aug 2024 10:03:58 GMT, Content-Type=text/plain;charset=UTF-8}
+}
+2024-08-17 13:05:04,302 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-4] LogStructureRequest {
+requestMethodType = DELETE
+url = /api/order/user1/10
+processingTime = 0 ms
+requestHeader = {postman-token=29526053-2b35-43e3-a95d-dc7b16c92c29, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 13:05:04,305 INFO o.e.s.a.SuccessLoggingAspect [http-nio-8080-exec-4] Метод deleteOrder успешно выполнился с аргументами: [user1, 10]
+2024-08-17 13:05:04,311 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-4] LogStructureResponse {
+statusCode = 404
+processingTime = 10 ms
+responseHeader = {Keep-Alive=timeout=60, Connection=keep-alive, Content-Length=31, Date=Sat, 17 Aug 2024 10:05:04 GMT, Content-Type=text/plain;charset=UTF-8}
+}
+2024-08-17 13:08:25,901 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Starting StarterLoggingHttpRequestsApplication using Java 22.0.1 with PID 1564 (D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests\target\classes started by ~BOSS~ in D:\Programs\Java\Projects\T1\Task_starter\starter_logging_http_requests)
+2024-08-17 13:08:25,913 DEBUG o.e.s.StarterLoggingHttpRequestsApplication [main] Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-17 13:08:25,915 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-08-17 13:08:27,931 INFO o.e.s.StarterLoggingHttpRequestsApplication [main] Started StarterLoggingHttpRequestsApplication in 2.537 seconds (process running for 4.076)
+2024-08-17 13:08:43,865 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureRequest {
+requestMethodType = DELETE
+url = /api/order/user1/10
+processingTime = 0 ms
+requestHeader = {postman-token=4c6c69f1-e259-4a26-93c5-c979c0068a8b, host=localhost:8080, connection=keep-alive, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.41.1, accept=*/*}
+}
+2024-08-17 13:08:43,903 ERROR o.e.s.o.e.OrderApplicationException [http-nio-8080-exec-1] Заказ 10 не найден
+2024-08-17 13:08:43,908 INFO o.e.s.a.SuccessLoggingAspect [http-nio-8080-exec-1] Метод deleteOrder успешно выполнился с аргументами: [user1, 10]
+2024-08-17 13:08:43,931 INFO o.e.s.f.LoggingHttpInterceptor [http-nio-8080-exec-1] LogStructureResponse {
+statusCode = 404
+processingTime = 67 ms
+responseHeader = {Keep-Alive=timeout=60, Connection=keep-alive, Content-Length=31, Date=Sat, 17 Aug 2024 10:08:43 GMT, Content-Type=text/plain;charset=UTF-8}
 }
