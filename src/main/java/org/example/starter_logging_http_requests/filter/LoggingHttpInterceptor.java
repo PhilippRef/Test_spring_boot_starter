@@ -7,7 +7,6 @@ import org.apache.logging.log4j.Logger;
 import org.example.starter_logging_http_requests.exception.LoggingStartupHttpException;
 import org.example.starter_logging_http_requests.model.LogStructureRequest;
 import org.example.starter_logging_http_requests.model.LogStructureResponse;
-import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 
 import java.util.HashMap;
@@ -17,7 +16,6 @@ import java.util.Map;
  * Класс для перехвата запросов и ответов от клиента
  */
 
-//@Component
 public class LoggingHttpInterceptor implements HandlerInterceptor {
 
     private static final Logger log = LogManager.getLogger(LoggingHttpInterceptor.class);
@@ -58,26 +56,6 @@ public class LoggingHttpInterceptor implements HandlerInterceptor {
     }
 
     /**
-     * Этот метод выполняется после того, как выполнится целевой метод контроллера, но до отправки ответа клиенту
-     *
-     * @param request      - см. выше
-     * @param response     - см. выше
-     * @param handler      - см. выше
-     * @param modelAndView - содержит данные о модели представления, которые визуализирует клиент
-     * @throws Exception
-     */
-
-//    @Override
-//    public void postHandle(HttpServletRequest request, HttpServletResponse response,
-//                           Object handler, ModelAndView modelAndView) throws Exception {
-//        log.info("Начало выполнения метода postHandle");
-//        long startTime = (Long) request.getAttribute("startTime");
-//
-//
-//        log.info("Время выполнения: {} мс", System.currentTimeMillis() - startTime);
-//    }
-
-    /**
      * Метод выполняется после завершения механизма запроса и ответа
      *
      * @param request  - см. выше
@@ -89,7 +67,7 @@ public class LoggingHttpInterceptor implements HandlerInterceptor {
 
     @Override
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response,
-                                Object handler, Exception ex) throws Exception {
+                                Object handler, Exception ex) {
         if (ex != null) {
             throw new LoggingStartupHttpException("Ошибка при выполнении метода afterCompletion: " +
                     ex.getMessage() + ", URL: " + request.getRequestURI());
@@ -124,9 +102,8 @@ public class LoggingHttpInterceptor implements HandlerInterceptor {
     private Map<String, String> getHeadersRequest(HttpServletRequest request) {
         Map<String, String> headers = new HashMap<>();
 
-        request.getHeaderNames().asIterator().forEachRemaining(headerName -> {
-            headers.put(headerName, request.getHeader(headerName));
-        });
+        request.getHeaderNames().asIterator().forEachRemaining(headerName ->
+                headers.put(headerName, request.getHeader(headerName)));
 
         return headers;
     }
@@ -141,9 +118,8 @@ public class LoggingHttpInterceptor implements HandlerInterceptor {
     private Map<String, String> getHeadersResponse(HttpServletResponse response) {
         Map<String, String> headers = new HashMap<>();
 
-        response.getHeaderNames().forEach(headerName -> {
-            headers.put(headerName, response.getHeader(headerName));
-        });
+        response.getHeaderNames().forEach(headerName ->
+                headers.put(headerName, response.getHeader(headerName)));
 
         return headers;
     }

@@ -14,9 +14,6 @@ import org.springframework.context.annotation.Bean;
  */
 
 @AutoConfiguration
-/**
- * Добавляем свойства из класса LoggingHttpProperties
- */
 @EnableConfigurationProperties(LoggingHttpProperties.class)
 @ConditionalOnProperty(prefix = "logging.http", value = "enabled", havingValue = "true")
 public class LoggingHttpAutoConfiguration {
@@ -27,7 +24,7 @@ public class LoggingHttpAutoConfiguration {
      */
 
     @Bean
-    @ConditionalOnExpression("${logging.http.enabled:false}")
+    @ConditionalOnExpression("${logging.http.enabled:true}")
     public LoggingHttpInterceptor loggingHttpInterceptor() {
         return new LoggingHttpInterceptor();
     }

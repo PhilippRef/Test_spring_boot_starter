@@ -16,7 +16,6 @@ import java.util.Enumeration;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.ArgumentMatchers.anyLong;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
@@ -80,9 +79,8 @@ class LoggingHttpInterceptorTest {
     @Test
     @DisplayName("Test preHandle with exception")
     void testPreHandleWithException() throws Exception {
-        when(request.getMethod())
-                .thenThrow((new LoggingStartupHttpException
-                        ("Test preHandleException")));
+        when(request.getMethod()).thenThrow(new LoggingStartupHttpException
+                        ("Test preHandleException"));
 
         try {
             loggingHttpInterceptor.preHandle(request, response, handler);
@@ -128,5 +126,22 @@ class LoggingHttpInterceptorTest {
                 assertEquals("keep-alive", response.getHeader(headerName));
             }
         });
+    }
+
+    @Test
+    @DisplayName("Test afterCompletion with exception")
+    void testAfterCompletionWithException() throws Exception {
+        when(request.getAttribute("startTime")).thenReturn(System.currentTimeMillis());
+        when(response.getStatus()).thenThrow(new LoggingStartupHttpException
+                        ("Test afterCompletionException"));
+
+        try {
+            loggingHttpInterceptor.afterCompletion(request, response, handler, null);
+        } catch (LoggingStartupHttpException e) {
+            assertEquals("Ошибка при выполнении метода afterCompletion:" +
+                    " Test afterCompletionException", e.getMessage());
+        }
+
+        verify(response, Mockito.times(1)).getStatus();
     }
 }
